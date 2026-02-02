@@ -16,6 +16,3 @@ __pycache__/
 .opencode/node_modules/
 .opencode/.cache/
 .opencode/.tmp/
-
-# .gitignore
-.gitignore

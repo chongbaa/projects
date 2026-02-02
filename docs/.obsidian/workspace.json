@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "3fed90f5177eef14",
+    "type": "split",
+    "children": [
+      {
+        "id": "0dc6085e07a6975e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85bd8e0d3d9b0214",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习内容/大模型/SKILL的使用.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SKILL的使用"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dace846826f0797b",
+    "type": "split",
+    "children": [
+      {
+        "id": "33caae109b63c7f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f029759612c76a0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2ab93abec63ac9c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "8ff73da11398eff0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 343.5069465637207
+  },
+  "right": {
+    "id": "5d5ab6cc59a89c89",
+    "type": "split",
+    "children": [
+      {
+        "id": "a71da3511109b818",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56bdf8584c16a490",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "8f8799a156dadcf6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "ee51da838189524a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "8da7a891e8e49832",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "064adc3a864b3e38",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:新建数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "85bd8e0d3d9b0214",
+  "lastOpenFiles": [
+    "学习内容/Python/不同项目的文件夹结构.md",
+    "学习内容/大模型/SKILL的使用.md",
+    "学习内容/Python/推荐的包结构.md",
+    "学习内容/WeatherAgent/未命名.md",
+    "学习内容/WeatherAgent/未命名.txt",
+    "学习内容/大模型/Google Colab/对话整理.md",
+    "学习内容/Python/decorator.md",
+    "学习内容/Python/了解import进来的对象类型.md",
+    "学习内容/大模型/Google Colab/Colab 使用 Notebook 的原因.md",
+    "学习内容/git的底层逻辑.md",
+    "学习内容/“自动保存时格式化代码”解释.md",
+    "学习内容/Python/pyproject.toml.md",
+    "学习内容/Python/from...import...执行流程.md",
+    "学习内容/Python",
+    "学习内容/大模型/HuggingFace/HuggingFace 常见模型加载方式.md",
+    "学习内容/大模型/HuggingFace/设置 HuggingFace Token（Secrets方式）.md",
+    "学习内容/大模型/Google Colab/Colab常用命令和配置/保存模型.md",
+    "学习内容/大模型/Google Colab/最常用、最实用的设置和配置.md",
+    "学习内容/大模型/Google Colab/Colab常用命令和配置/模型缓存到 Drive.md",
+    "学习内容/大模型/Google Colab/Colab常用命令和配置/设置运行时硬件（GPU_TPU）.md",
+    "学习内容/大模型/Google Colab/Colab常用命令和配置/常用 pip 安装（AI_ML 必备包）.md",
+    "学习内容/大模型/Google Colab/如何处理“命令行”操作？.md",
+    "学习内容/大模型/Google Colab/Colab常用命令和配置/挂载Google Driver.md",
+    "学习内容/Lyra Prompt 中文版.md",
+    "学习内容/Lyra Prompt.md",
+    "学习内容/大模型/LLM教材/LLM学习阶段.md",
+    "Pasted image 20260116092651.png",
+    "Pasted image 20260116092621.png",
+    "Pasted image 20260116092521.png",
+    "Pasted image 20260116092440.png",
+    "Pasted image 20260116092313.png",
+    "Pasted image 20260116092151.png",
+    "学习内容/大模型/Transformer/Transformer基础组件.md",
+    "学习内容/大模型/Transformer/Logits.md",
+    "学习内容/大模型/LLM教材",
+    "学习内容/大模型/LLM教材/《周志华机器学习》",
+    "学习内容/大模型/HuggingFace",
+    "学习内容/大模型/Google Colab/Colab常用命令和配置",
+    "学习内容/大模型/Transformer",
+    "Pasted image 20260114085904.png",
+    "Pasted image 20260114085707.png",
+    "Pasted image 20260114084756.png",
+    "Pasted image 20260114084648.png",
+    "学习内容/大模型/CUDA",
+    "学习内容/大模型/《ChatGPT从入门到精通》",
+    "学习内容/大模型/LLM教材/《一本就懂AIGC》"
+  ]
+}
