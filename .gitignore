@@ -16,3 +16,5 @@ __pycache__/
 .opencode/node_modules/
 .opencode/.cache/
 .opencode/.tmp/
+
+*.egg-info/

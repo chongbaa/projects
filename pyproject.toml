@@ -1,0 +1,41 @@
+[project]
+name = "projects"
+version = "0.1.0"
+description = "A modular multi-agent project using LangChain, LangGraph, and OpenAI."
+authors = [
+    { name = "Daqing" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+
+# 你的主依赖（从你当前 .venv 推断）
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-core",
+    "langchain-openai",
+    "langchain-text-splitters",
+    "langchain-tavily",
+    "langgraph",
+    "langgraph-checkpoint",
+    "langgraph-prebuilt",
+    "langgraph-sdk",
+    "openai",
+    "jupyter",
+    "jupyterlab",
+    "ipykernel",
+    "python-dotenv",
+    "numpy",
+    "sqlalchemy",
+    "requests",
+    "tiktoken",
+]
+
+[tool.uv]
+# uv 会自动创建 .venv
+# 你也可以指定虚拟环境目录（可选）
+# venv = ".venv"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
