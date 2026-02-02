@@ -49,17 +49,17 @@ agent = create_agent(
 # Streamlit Web UI
 # -------------------------
 
-st.set_page_config(page_title="天气助手", page_icon="⛅")
-st.title("⛅ 天气助手 WebUI")
+st.set_page_config(page_title="Weather Agent", page_icon="⛅")
+st.title("⛅ Weather Agent")
 
-city = st.text_input("请输入城市名称：")
+city = st.text_input("City：")
 
-if st.button("查询天气"):
+if st.button("Query Weather"):
     if city.strip():
         result = agent.invoke(
-            {"messages": [("user", f"{city}天气怎么样？")]},
+            {"messages": [("user", f"{city}How is Weather today？")]},
             config={"configurable": {"thread_id": "webui"}}
         )
         st.success(result["messages"][-1].content)
     else:
-        st.warning("请输入城市名称")
+        st.warning("Weather Query")
