@@ -1,0 +1,4 @@
+name: edge_tabs
+type: tool
+enabled: true
+description: 模拟获取当前浏览器标签页

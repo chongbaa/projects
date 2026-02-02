@@ -1,0 +1,6 @@
+name: streamlit_ui
+type: ui
+enabled: true
+entry: run_ui
+description: Streamlit Web UI
+type: tool
