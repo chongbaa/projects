@@ -54,12 +54,12 @@ st.title("⛅ Weather Agent")
 
 city = st.text_input("City：")
 
-if st.button("Query Weather"):
+if st.button("Query"):
     if city.strip():
         result = agent.invoke(
-            {"messages": [("user", f"{city}How is Weather today？")]},
+            {"messages": [("user", f"{city}今天天气如何？")]},
             config={"configurable": {"thread_id": "webui"}}
         )
         st.success(result["messages"][-1].content)
     else:
-        st.warning("Weather Query")
+        st.warning("Query")
